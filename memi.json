@@ -1,0 +1,554 @@
+{
+	"MI": {
+		"id": "MI",
+		"name": {
+			"en": "The Minstrels",
+			"es": "The Minstrels"},
+		"context": "Fanmade",
+		"extendsFromSetId": null,
+		"isReleased": false,
+		"imageBaseUrl": {
+			"en": "https://github.com/Machacator/meccg-minstrels/tree/main/images/",
+			"es": "REPOSITORIO_IMAGENES" },
+		"cards": {
+			"MI-017": {
+				"id": "MI-017",
+				"set": "MI",
+				"name": {
+					"en": "A Tale of Men",
+					"es": "A Tale of Men",
+					"de": "A Tale of Men",
+					"fr": "A Tale of Men",
+					"it": "A Tale of Men",
+					"nl": "A Tale of Men",
+					"fi": "A Tale of Men",
+					"ja": "A Tale of Men"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Permanent-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a man character on a"},
+				"quote": 
+					{"en": "Flavor Text"},
+				"image": "A Tale of Men.jpg",
+				"rarity": "CA",
+				"artist": ""
+			},
+			"MI-001": {
+				"id": "MI-001",
+				"set": "MI",
+				"name": {
+					"en": "Drinking Song",
+					"es": "Drinking Song",
+					"de": "Drinking Song",
+					"fr": "Drinking Song",
+					"it": "Drinking Song",
+					"nl": "Drinking Song",
+					"fi": "Drinking Song",
+					"ja": "Drinking Song"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a company at a Haven. Draw X cards, where X is the number of races among your characters. Man, Elf, Dwarf, Wose, Dúnedain and Hobbit."},
+				"quote": 
+					{"en": "“Ho! Ho! Ho! To the bottle I go, To heal my heart and drown my woe” —LotRII"},
+				"image": "Drinking Song.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-002": {
+				"id": "MI-002",
+				"set": "MI",
+				"name": {
+					"en": "Durin´s Song",
+					"es": "Durin´s Song",
+					"de": "Durin´s Song",
+					"fr": "Durin´s Song",
+					"it": "Durin´s Song",
+					"nl": "Durin´s Song",
+					"fi": "Durin´s Song",
+					"ja": "Durin´s Song"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a dwarf. Target dwarf gains +1 prowess, +1 body and +1 to all his corruption checks until end of turn. (+2 if in a Dwarf-Hold, Moria or any Under-Deeps site). Cannot be duplicated on a given dwarf."},
+				"quote": 
+					{"en": "“A king he was on carven throne, In many-pillared halls of stone, With golden roof and silver floor,And runes of power upon the door” —LotRII"},
+				"image": "Durin´s Song.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-003": {
+				"id": "MI-003",
+				"set": "MI",
+				"name": {
+					"en": "Dwarf-Song",
+					"es": "Dwarf-Song",
+					"de": "Dwarf-Song",
+					"fr": "Dwarf-Song",
+					"it": "Dwarf-Song",
+					"nl": "Dwarf-Song",
+					"fi": "Dwarf-Song",
+					"ja": "Dwarf-Song"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"corruption": "1",
+					"subtype": "Permanent-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Only playable during the organization phase on a diplomat Dwarf. Tap bearer to untap target Dwarf or Hobbit character in his company."},
+				"quote": 
+					{"en": "“Far over the misty mountains cold To dungeons deep and caverns old We must away ere break of day To seek the pale enchanted gold.” —The Hobbit"},
+				"image": "Dwarf-Song.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-004": {
+				"id": "MI-004",
+				"set": "MI",
+				"name": {
+					"en": "Fiddles and Flutes",
+					"es": "Fiddles and Flutes",
+					"de": "Fiddles and Flutes",
+					"fr": "Fiddles and Flutes",
+					"it": "Fiddles and Flutes",
+					"nl": "Fiddles and Flutes",
+					"fi": "Fiddles and Flutes",
+					"ja": "Fiddles and Flutes"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"corruption": "1",
+					"marshallingPoints": "2",
+					"marshallingPointsType": "item",
+					"directInfluence": "+2",
+					"subtype": "Major Item",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Instrument. +2 to bearer´s direct influence. (+3 if held by a diplomat).Tap to take one song resource from your sideboard to your play deck and reshuffle."},
+				"quote": 
+					{"en": "“The Unexpected Party in Bag End was sung accompanied by instruments; Fíli and Kíli on fiddles; Dori, Nori, and Ori on flutes” —The Hobbit"},
+				"image": "Fiddles and Flutes.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-005": {
+				"id": "MI-005",
+				"set": "MI",
+				"name": {
+					"en": "Fireside Song",
+					"es": "Fireside Song",
+					"de": "Fireside Song",
+					"fr": "Fireside Song",
+					"it": "Fireside Song",
+					"nl": "Fireside Song",
+					"fi": "Fireside Song",
+					"ja": "Fireside Song"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a Hobbit sage at a Haven or at his Home site. Draw a card for each Hobbit in his company. Hobbit makes a corruption check modified by -2."},
+				"quote": 
+					{"en": "“I sit beside the fire and think, Of all that I have seen Of meadows, flowers, butterflies In summers that have been.” —LotRII"},
+				"image": "Fireside Song.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-006": {
+				"id": "MI-006",
+				"set": "MI",
+				"name": {
+					"en": "Gruff Ironbeard",
+					"es": "Gruff Ironbeard",
+					"de": "Gruff Ironbeard",
+					"fr": "Gruff Ironbeard",
+					"it": "Gruff Ironbeard",
+					"nl": "Gruff Ironbeard",
+					"fi": "Gruff Ironbeard",
+					"ja": "Gruff Ironbeard"},
+				"type": "Character",
+				"alignment": "Hero",
+				"attributes": {
+					"unique": true,
+					"skills": "Warrior/Diplomat",
+					"marshallingPoints": "2",
+					"marshallingPointsType": "character",
+					"body": "8",
+					"prowess": "4",
+					"homeSite": "Any Dwarf-Hold",
+					"race": "Dwarf",
+					"mind": "5",
+					"directInfluence": "2",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Unique. +1 prowess against Orcs, +1 to his direct influence when a Song or an Instrument permanent resource is played on him."},
+				"quote": 
+					{"en": "“In the shadow of stone, we march, we fight, Through frost-kissed pines and star-studded night. Our beards, like banners, unfurl in the breeze, For honor, for kin, we tread paths unseen.” —The March of the Mountain Dwarves"},
+				"image": "Gruff Ironbeard.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-007": {
+				"id": "MI-007",
+				"set": "MI",
+				"name": {
+					"en": "Leyessil",
+					"es": "Leyessil",
+					"de": "Leyessil",
+					"fr": "Leyessil",
+					"it": "Leyessil",
+					"nl": "Leyessil",
+					"fi": "Leyessil",
+					"ja": "Leyessil"},
+				"type": "Character",
+				"alignment": "Hero",
+				"attributes": {
+					"unique": true,
+					"skills": "Sage/Diplomat",
+					"marshallingPoints": "1",
+					"marshallingPointsType": "character",
+					"body": "8",
+					"prowess": "3",
+					"homeSite": "Minas Tirith",
+					"race": "Dúnedan",
+					"mind": "4",
+					"directInfluence": "1",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Unique. +2 direct influence against Dúnadain and Dúnedain factions. +1 to his direct influence when a Song or an Instrument permanent resource is played on her."},
+				"quote": 
+					{"en": "“Gondor! Gondor, between the Mountains and the Sea!West Wind blew there; the light upon the Silver TreeFell like bright rain in gardens of the Kings of old.O proud walls! White towers! O winged crown andthrone of gold! O Gondor, Gondor! Shall Men behold the Silver Tree, Or West Wind blow again between the Mountains and the Sea? “ —The Two Towers"},
+				"image": "Leyessil.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-008": {
+				"id": "MI-008",
+				"set": "MI",
+				"name": {
+					"en": "Lila Cotton",
+					"es": "Lila Cotton",
+					"de": "Lila Cotton",
+					"fr": "Lila Cotton",
+					"it": "Lila Cotton",
+					"nl": "Lila Cotton",
+					"fi": "Lila Cotton",
+					"ja": "Lila Cotton"},
+				"type": "Character",
+				"alignment": "Hero",
+				"attributes": {
+					"unique": true,
+					"corruption": "+1",
+					"skills": "Scout/Diplomat",
+					"marshallingPoints": "1",
+					"marshallingPointsType": "character",
+					"body": "9",
+					"prowess": "0",
+					"homeSite": "Bag End",
+					"race": "Hobbit",
+					"mind": "3",
+					"directInfluence": "0",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Unique. Unless she is one of the starting characters, he may only be brought into play at his home site. All of his corruption checks are modified by +1. +2 to her corruption checks when a Song or an Instrument permanent resource is played on her."},
+				"quote": 
+					{"en": "“Sing hey! for the bath at close of day that washes the weary mud away! A loon is he that will not sing: O! Water Hot is a noble thing!” —LotRI"},
+				"image": "Lila Cotton.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-009": {
+				"id": "MI-009",
+				"set": "MI",
+				"name": {
+					"en": "Lirael the Minstrel",
+					"es": "Lirael the Minstrel",
+					"de": "Lirael the Minstrel",
+					"fr": "Lirael the Minstrel",
+					"it": "Lirael the Minstrel",
+					"nl": "Lirael the Minstrel",
+					"fi": "Lirael the Minstrel",
+					"ja": "Lirael the Minstrel"},
+				"type": "Character",
+				"alignment": "Hero",
+				"attributes": {
+					"unique": true,
+					"skills": "Sage/Diplomat",
+					"marshallingPoints": "1",
+					"marshallingPointsType": "character",
+					"body": "8",
+					"prowess": "2",
+					"homeSite": "Rivendel",
+					"race": "Elf",
+					"mind": "4",
+					"directInfluence": "1",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Unique. +2 direct influence against Elves and Elf factions. +1 to his direct influence when a Song or an Instrument permanent resource is played on her."},
+				"quote": 
+					{"en": "“Sing all ye joyful, now sing all together!The wind’s in the tree-top, the wind’s in the heather;The stars are in blossom, the moon is in flower,And bright are the windows of Night in her tower.” —The Hobbit"},
+				"image": "Lirael the Minstrel.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-010": {
+				"id": "MI-010",
+				"set": "MI",
+				"name": {
+					"en": "Longbottom Song",
+					"es": "Longbottom Song",
+					"de": "Longbottom Song",
+					"fr": "Longbottom Song",
+					"it": "Longbottom Song",
+					"nl": "Longbottom Song",
+					"fi": "Longbottom Song",
+					"ja": "Longbottom Song"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a Hobbit sage at a Haven or at his Home site. Draw a card for each Hobbit in his company. Hobbit sage must make a corruption check for each card drawn this way."},
+				"quote": 
+					{"en": "“I sit beside the fire and think, Of all that I have seen Of meadows, flowers, butterflies In summers that have been.” —LotRII"},
+				"image": "Longbottom Song.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-011": {
+				"id": "MI-011",
+				"set": "MI",
+				"name": {
+					"en": "Lyricist",
+					"es": "Lyricist",
+					"de": "Lyricist",
+					"fr": "Lyricist",
+					"it": "Lyricist",
+					"nl": "Lyricist",
+					"fi": "Lyricist",
+					"ja": "Lyricist"},
+				"type": "Character",
+				"alignment": "Hero",
+				"attributes": {
+					"skills": "Sage/Diplomat",
+					"marshallingPoints": "1",
+					"marshallingPointsType": "character",
+					"body": "8",
+					"prowess": "1",
+					"homeSite": "Edoras",
+					"race": "Man",
+					"mind": "3",
+					"directInfluence": "1",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "+1 direct influence against Men with Edoras as home site. +2 to his direct influence when a Song or an Instrument permanent resource is played on him."},
+				"quote": 
+					{"en": "“For even in sadness, beauty can thrive,In the heart of a man, keeping hope alive.” —The Lyricist"},
+				"image": "Lyricist.jpg",
+				"rarity": "CA",
+				"artist": "Dalle"
+			},
+			"MI-012": {
+				"id": "MI-012",
+				"set": "MI",
+				"name": {
+					"en": "Memories and Laments",
+					"es": "Memories and Laments",
+					"de": "Memories and Laments",
+					"fr": "Memories and Laments",
+					"it": "Memories and Laments",
+					"nl": "Memories and Laments",
+					"fi": "Memories and Laments",
+					"ja": "Memories and Laments"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Permanent-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a hobbit diplomat. Tap hobbit to bring any song card from your discard pile into your hand. Hobbit must make a corruption check."},
+				"quote": 
+					{"en": "“When evening in the Shire was grey his footsteps on the Hill were heard; before the dawn he went away on journey long without a word.” —LotRII"},
+				"image": "Memories and Laments.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-013": {
+				"id": "MI-013",
+				"set": "MI",
+				"name": {
+					"en": "Menestral",
+					"es": "Menestral",
+					"de": "Menestral",
+					"fr": "Menestral",
+					"it": "Menestral",
+					"nl": "Menestral",
+					"fi": "Menestral",
+					"ja": "Menestral"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Permanent-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Sage only. Discard this card to search for a song card in your play deck and place it in your hand. Sage must make a corruption check modified by a -1."},
+				"quote": 
+					{"en": "“As Elrond entered and went towards the seat prepared for him, Elvish minstrels began to make sweet music.” —LotRII"},
+				"image": "Menestral.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-014": {
+				"id": "MI-014",
+				"set": "MI",
+				"name": {
+					"en": "Noble Sons",
+					"es": "Noble Sons",
+					"de": "Noble Sons",
+					"fr": "Noble Sons",
+					"it": "Noble Sons",
+					"nl": "Noble Sons",
+					"fi": "Noble Sons",
+					"ja": "Noble Sons"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Tap a Dunadan with a mind attribute of 6 or more. For the rest of the turn, choose one: Dúnadan gains +2 direct influence OR all other characters in the same company get +1 prowess and +1 to all corruption checks. Dunadan makes a corruption check."},
+				"quote": 
+					{"en": "“From the ashes a fire shall be woken, A light from the shadows will springRenewed shall the blade that was brokenThe crownless again shall be king.” —LotRII"},
+				"image": "Noble Sons.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-016": {
+				"id": "MI-016",
+				"set": "MI",
+				"name": {
+					"en": "Song of Lórien",
+					"es": "Song of Lórien",
+					"de": "Song of Lórien",
+					"fr": "Song of Lórien",
+					"it": "Song of Lórien",
+					"nl": "Song of Lórien",
+					"fi": "Song of Lórien",
+					"ja": "Song of Lórien"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Tap a character with a mind attribute of 6 or more at Lórien during the site phase.Search your play deck for an Elf with Lórien as home site and put that character into play with direct or general influence with this company. Tapped character makes a corruption check."},
+				"quote": 
+					{"en": "“I sang of leaves, of leaves of gold, And leaves of gold there grew Of wind I sang, a wind there cameAnd in the branches blew.” — LotRII"},
+				"image": "Song of Lórien.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-018": {
+				"id": "MI-018",
+				"set": "MI",
+				"name": {
+					"en": "Tale of Tinuviel",
+					"es": "Tale of Tinuviel",
+					"de": "Tale of Tinuviel",
+					"fr": "Tale of Tinuviel",
+					"it": "Tale of Tinuviel",
+					"nl": "Tale of Tinuviel",
+					"fi": "Tale of Tinuviel",
+					"ja": "Tale of Tinuviel"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"corruption": "1",
+					"marshallingPoints": "1",
+					"marshallingPointsType": "miscellaneous",
+					"subtype": "Permanent-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a diplomat Dúnadan or Elf during the site phase at a tapped or untapped site where Information is playable. Tap Tale of Tinuviel to untap an Elf or Dúnedain character in the same company or vice versa. Bearer makes a corruption check."},
+				"quote": 
+					{"en": "“Long was the way that fate them bore, O’er stony mountains cold and greyThrough halls of iron and darkling doorAnd woods of nightshade morrowless.” —LotRII"},
+				"image": "Tale of Tinuviel.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			},
+			"MI-015": {
+				"id": "MI-015",
+				"set": "MI",
+				"name": {
+					"en": "The Road Goes Ever On",
+					"es": "The Road Goes Ever On",
+					"de": "The Road Goes Ever On",
+					"fr": "The Road Goes Ever On",
+					"it": "The Road Goes Ever On",
+					"nl": "The Road Goes Ever On",
+					"fi": "The Road Goes Ever On",
+					"ja": "The Road Goes Ever On"},
+				"type": "Resource",
+				"alignment": "Hero",
+				"attributes": {
+					"subtype": "Short-event",
+					"spawn": false,
+					"keywords": ["-"]},
+				"text": 
+					{"en": "Song. Playable on a company at the beginning of the movement/hazard phase if it contains at least one diplomat character. Tap a diplomat to increase by one the number of regions allowed to travel (to a maximum of six). Alternatively, tap a diplomat to untap another diplomat in his company. In both cases, tapped character makes a corruption check."},
+				"quote": 
+					{"en": "“The road goes ever on and on, Down from the door where it beganNow far ahead the road has goneAnd I must follow if I can.” — LotRI"},
+				"image": "The Road Goes Ever On.jpg",
+				"rarity": "CA",
+				"artist": "DALL·E"
+			}
+		},
+		"order": 99 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
